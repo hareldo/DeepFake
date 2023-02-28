@@ -7,26 +7,27 @@ Flags:
 -m deterime the model type (Origin or Triplet)
 -d dataset path (should organized by train,val,test and in each one fake,real folders) for example:
 
-fakes_dataset
-├── train
-│   ├── real
-│   ├── ├── img1.png
-│   ├── ├── img2.png
-│   └── fake
-│   ├── ├── img1.png
-│   ├── ├── img2.png
-├── val
-│   ├── ├── img1.png
-│   ├── ├── img2.png
-│   └── fake
-│   ├── ├── img1.png
-│   ├── ├── img2.png
-├── test
-│   ├── ├── img1.png
-│   ├── ├── img2.png
-│   └── fake
-│   ├── ├── img1.png
-│   ├── ├── img2.png
+.. code-block:: raw
+    fakes_dataset
+    ├── train
+    │   ├── real
+    │   ├── ├── img1.png
+    │   ├── ├── img2.png
+    │   └── fake
+    │   ├── ├── img1.png
+    │   ├── ├── img2.png
+    ├── val
+    │   ├── ├── img1.png
+    │   ├── ├── img2.png
+    │   └── fake
+    │   ├── ├── img1.png
+    │   ├── ├── img2.png
+    ├── test
+    │   ├── ├── img1.png
+    │   ├── ├── img2.png
+    │   └── fake
+    │   ├── ├── img1.png
+    │   ├── ├── img2.png
 
 
 Run original loss:
