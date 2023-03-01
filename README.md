@@ -30,8 +30,11 @@ fakes_dataset
 │   ├── ├── img2.png
 ```
 
+Build docker using:
+docker build -t deep-fake .
+
 Run original loss:
-docker run deep-fake -d C:\workarea\Assignment4_datasets\fakes_datase -m Origin
+docker run deep-fake -d ..\fakes_datase -m Origin
 
 Run Triplet loss:
-docker run deep-fake -d C:\workarea\Assignment4_datasets\fakes_datase -m Triplet
+docker run deep-fake -d ..\fakes_datase -m Triplet
